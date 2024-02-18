@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.black {
+    background-color: black;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+.roboto {
+font-family: Roboto;
+}
+
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #490404;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 600px;
+}
+
+
+.links_header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.links_header a {
+    color: white;
+
+}
+
+.links_header a:hover {
+    color: rgb(255, 0, 0);
+    transition: all 0.4s ease;
+}
+
+
+.links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.icons_header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+
+/* MAIN */
+
+
+.birinchi_section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+}
+
+.birinchi_sec {
+    background: #000;
+height: 648px;
+}
+
+.ong {
+    color: white;
+    width: 576px;
+    display: flex;
+    flex-direction: column;
+    gap: 43px;
+}
+
+.ong h1 {
+    font-size: 51px;
+    margin: 50px 0;
+}
+
+.ong button {
+    width: 203.59px;
+    height: 60px;
+    background: #8DFD1B;
+border: none;
+transition: all 0.4s ease;
+/* margin-top: 115px;
+margin-bottom: 50px; */
+}
+
+.ong button:hover {
+    background: transparent;
+    border: 1px solid #8DFD1B;
+   color: #8DFD1B;
+}
+
+
+/* SECTION 2 */
+
+
+.card {
+    width: 540px;
+ 
+    height: 271px;
+
+    background:#55555562;
+  font-family: Roboto;
+  color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #8DFD1B;
+  margin-left: 280px;
+}
+
+.card-head {
+    display: flex;
+}
+
+.card-head h3 {
+    text-align: start;
+  width: 45px;
+  height: 45px;
+background-color: #8DFD1B;
+text-align: center;
+justify-content: center;
+align-items: center;
+}
+
+.card-head h4 {
+    text-align: center;
+}
+
+
+.card-main {
+    display: flex;
+    gap: 40px;
+}
+
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
